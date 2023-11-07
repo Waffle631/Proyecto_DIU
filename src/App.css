@@ -137,10 +137,11 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin: 0;
+  height: 90vh;
+  width: 87vw;
+  margin: 0 auto;
   padding: 0;
-  background-image: url('../assets/fondoUSM.png');
+  background-image: url('./assets/fondoUSM.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
