@@ -24,9 +24,8 @@ html, body {
   /* Some padding for space */
   position: absolute;
   /* To position it slightly outside the .page */
-  top: -15px;
-  /* Position it 15px above the top of .page */
-  left: 20px;
+  top: 120px;
+  left: 530px;
   /* Some space from the left */
   border-radius: 5px;
   /* Rounded corners */
@@ -35,6 +34,7 @@ html, body {
 }
 
 .postulantes {
+  color: black;
   background: linear-gradient(60deg, #ab47bc, #8e24aa);
   padding: 20px;
   width: 900px;
@@ -43,106 +43,94 @@ html, body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-
   position: center;
   align-items: center;
   top: 37%;
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
+}
 
-  /* Lo coloca 20px a la derecha del borde derecho de la pantalla */
-  /* // transform: translateY(-50%); */
-  /* Corrige la posición vertical para centrarla */
+.postulante {
+  background-color: #dbdbdb;
+  padding: 20px;
+  display: flex;
+  border-radius: 2ch;
+  margin-block-end: 20px;
+}
 
+.postulante .imgPostu {
+  padding: 10px;
+  align-items: center;
+}
 
-  .postulante {
-    background-color: #dbdbdb;
-    padding: 20px;
-    display: flex;
-    border-radius: 2ch;
-    margin-block-end: 20px;
-    /* // width: 6; */
+.postulante .imgPostu img {
+  height: 100px;
+  border-radius: 10%;
+}
 
+.postulante .info1 {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  align-items: center;
+}
 
-    .imgPostu {
-      padding: 10px;
-      align-items: center;
+.postulante .info1 h3 {
+  margin: 0;
+}
 
-      img {
-        height: 100px;
-        border-radius: 10%;
-      }
-    }
+.postulante .info2g {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
-    .info1 {
-      width: 150px;
-      height: 150px;
-      padding: 10px;
-      /* // display: flex;
-          // flex-direction: column;
-          // justify-content: space-between; */
-      align-items: center;
+.postulante .info2g .info2 {
+  display: flex;
+  justify-content: space-between;
+}
 
-      h3 {
-        margin: 0;
-      }
-    }
+.postulante .info2g .info2 .promedio,
+.postulante .info2g .info2 .VSA,
+.postulante .info2g .info2 .TipoPost {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
 
-    .info2g {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
+.postulante .info2g .info2 .promedio h4,
+.postulante .info2g .info2 .VSA h4,
+.postulante .info2g .info2 .TipoPost h4 {
+  margin: 0;
+}
 
-      .info2 {
-        display: flex;
-        justify-content: space-between;
+.postulante .info2g .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  /* margin-left: -10px; */
+}
 
-        .promedio,
-        .VSA,
-        .TipoPost {
-          flex: 1;
-          padding: 10px;
-          display: flex;
-          flex-direction: column;
+.postulante .info2g .buttons button {
+  width: calc(100% - 5px);
+  height: 100px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(60deg, #26c6da, #00acc1);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  /* transition: background 0.6s ease; */
+}
 
-          h4 {
-            margin: 0;
-          }
-        }
-      }
-
-      .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 200px;
-        padding: 10px;
-        margin-left: -10px;
-
-        button {
-          width: calc(100% - 5px);
-          /* 50% de ancho con 5px de espacio entre botones */
-          height: 100px;
-          margin: 0 5px;
-
-          /* Espacio horizontal entre botones */
-          border-radius: 10px;
-          border: none;
-          background: linear-gradient(60deg, #26c6da, #00acc1);
-          color: black;
-          font-size: 20px;
-          font-weight: bold;
-          cursor: pointer;
-          transition: background 0.6s ease;
-
-          &:hover {
-            background: #007a8e;
-          }
-        }
-      }
-    }
-  }
+.postulante .info2g .buttons button:hover {
+  background: #007a8e;
 }
 
 .login-content {
@@ -167,19 +155,18 @@ html, body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #5e5353;
   text-align: center;
+}
+.login-container .button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
 
-  button {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 15px;
-
-    &:hover {
-      background-color: #ff8c00;
-    }
-  }
+.login-container .button button:hover {
+  background-color: #ff8c00;
 }
 
 
@@ -188,21 +175,21 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #fffafa;
-  }
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fffafa;
+}
 
-  input {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .password-help-text {
@@ -222,71 +209,73 @@ html, body {
   width: 300px;
   position: relative;
   /* Cambia la posición a absoluta */
-  top: -100px;
+  top: -425px;
   /* Lo coloca en la mitad vertical de la pantalla */
   left: -5%;
   background-color: transparent;
   margin: 50px;
+}
 
-  .MT_img {
-    position: relative;
-    /* Cambia la posición a absoluta */
-    top: 50px;
-    /* Posición 20px por debajo de .MT_name */
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.MT_g .MT_img {
+  position: relative;
+  /* Cambia la posición a absoluta */
+  top: 50px;
+  /* Posición 20px por debajo de .MT_name */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    img {
-      height: 150px;
-      border-radius: 10px;
-    }
-  }
+.MT_g .MT_img img {
+  height: 150px;
+  border-radius: 10px;
+}
 
-  .MT_name {
-    background-color: #dbdbdb;
-    width: 200px;
-    height: 80px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    /* //   position: relative; Cambia la posición a relativa */
-  }
+.MT_g .MT_name {
+  background-color: #dbdbdb;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+  /* //   position: relative; Cambia la posición a relativa */
+}
 
-  .MT_ramos {
-    margin-block-start: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-    padding: 10px;
-    background-color: #dbdbdb;
-    border-radius: 10px;
+.MT_g .MT_ramos {
+  color: black;
+  margin-block-start: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
 
-    button {
-      width: 150px;
-      height: 50px;
-      margin: 0 5px;
-      border-radius: 10px;
-      border: none;
-      background: linear-gradient(60deg, #26c6da, #00acc1);
-      margin-block-end: 10px;
-      color: black;
-      font-size: 12px;
-      font-weight: bold;
-      cursor: pointer;
+.MT_g .MT_ramos button {
+  width: 150px;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(60deg, #26c6da, #00acc1);
+  margin-block-end: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-      &:hover {
-        background: #007a8e;
-      }
-    }
-  }
+.MT_g .MT_ramos button:hover {
+  background: #007a8e;
 }
 
 .nav-bar {
@@ -315,35 +304,32 @@ html, body {
   text-decoration: none;
   border-radius: 15px;
   transition: all 1s ease;
+}
 
-  &--active {
-    background: #7f00b2;
-    color: white;
+.nav-bar__link--active {
+  background: #7f00b2;
+  color: white;
+}
 
-  }
-
-  &:hover {
-    background-color: #4a0072;
-  }
+.nav-bar__link:hover {
+  background-color: #4a0072;
 }
 
 
 .logout-button {
   background: linear-gradient(60deg, #26c6da, #00acc1);
-  ;
   color: white;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, background 0.3s ease;
   margin-left: 220px;
-  transition: background 0.3s ease;
+}
 
-  &:hover {
-    background: #007a8e;
-  }
+.logout-button:hover {
+  background: #007a8e;
 }
 
 .page__title {
@@ -351,23 +337,20 @@ html, body {
 }
 
 .page {
-  /* // background:; */
   border-radius: 5px;
+}
 
-  .Bar {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-  }
+.page .Bar {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
 
-  .content {
-    /* // background-color: #f0f0f0; */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-
-  }
+.page .content {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
 }
 
 .flex-container {
@@ -411,6 +394,7 @@ html, body {
 }
 
 .name {
+  color: black;
   font-size: 24px;
   font-weight: bold;
 }
@@ -428,15 +412,18 @@ html, body {
   background-color: white; 
   border-radius: 5px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); 
+  color: black;
 }
 
 .stat label, .motivation label, .courses label, .current-courses label {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
+  color: black;
 }
 
 .motivation, .courses, .current-courses {
+  color: black;
   background-color: white; 
   padding: 10px; 
   border-radius: 5px; 

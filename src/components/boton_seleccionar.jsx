@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
 function BotonSeleccionar() {
     const [isSelected, setIsSelected] = useState(false);
@@ -9,9 +10,9 @@ function BotonSeleccionar() {
 
     return (
         <div className='buttons'>
-            <button onClick={handleButtonClick}>
+            <Button variant={isSelected ? 'success' : 'primary'} onClick={handleButtonClick}>
                 {isSelected ? 'Seleccionado' : 'Seleccionar'}
-            </button>
+            </Button>
         </div>
     );
 }
