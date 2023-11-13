@@ -13,15 +13,48 @@ export const HomePage = () => {
       <NavBar />
       <div className='content'>
         <div className='dates'>
-          <h1>Proximas fechas</h1>
+          <div className='date-tittle'>
+            <h2>Proximas fechas</h2>
+          </div>
           <div className='date'>
-            <h3>Periodo de postulaciones: 25/01 - 09/02</h3>
-            <h3>Selección postulantes: 10/02 - 15/02</h3>
-            <h3>Segundo llamado: 16/02 - 20/02</h3>
+            Estimados:
+            <p className='date-p'>Se les informa que las fechas para el periodo 2024-1 son:</p>
+            <table className="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" style={{paddingLeft: "20px"}} >Inicio</th>
+                  <th scope="col" style={{paddingLeft: "20px"}} ></th>
+                  <th scope="col" style={{paddingLeft: "10px"}} >Termino</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Postulaciones</th>
+                  <td style={{paddingLeft: "20px"}}>25/01</td>
+                  <td style={{paddingLeft: "20px"}} >-</td>
+                  <td style={{paddingLeft: "20px"}} >09/02</td>
+                </tr>
+                <tr>
+                  <th scope="row">Selección postulantes</th>
+                  <td style={{paddingLeft: "20px"}}>10/02</td>
+                  <td style={{paddingLeft: "20px"}} >-</td>
+                  <td style={{paddingLeft: "20px"}} >15/02</td>
+                </tr>
+                <tr>
+                  <th scope="row">Segundo Llamado</th>
+                  <td style={{paddingLeft: "20px"}}>16/02</td>
+                  <td style={{paddingLeft: "20px"}} >-</td>
+                  <td style={{paddingLeft: "20px"}} >20/02</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         <div className='signatures'>
-          <h1>Tus Asignaturas</h1>
+          <div className='sig-tittle'>
+            <h2>Tus Asignaturas</h2>
+          </div>
           <div className='signature'>
             <Link to="/INF152" className='Link-sig'>
               <Button variant='primary'>INF152: Estructuras Discretas</Button>
