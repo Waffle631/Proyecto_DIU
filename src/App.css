@@ -1,6 +1,7 @@
 html, body {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 * {
@@ -9,10 +10,11 @@ html, body {
 
 
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 85%;
 }
 
 .title-postulantes {
@@ -380,8 +382,7 @@ html, body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
-  max-width: 600px;
-  margin: 40px auto;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: relative
@@ -391,6 +392,13 @@ html, body {
   height: 80px;
   border-radius: 10%;
   margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .stat {
+      flex: 0 0 50%; 
+      max-width: 50%; 
+    }
 }
 
 .name {
@@ -434,6 +442,7 @@ html, body {
 .courses ul, .current-courses ul {
   list-style-type: disc;
   margin-left: 20px;
+  text-align: left;
 }
 
 .profile-actions {
@@ -454,3 +463,111 @@ button {
 .stat + .stat {
   margin-left: 10px;
 }
+
+.chat-button {
+     /* Green background */
+    border: none;
+    color: white;
+    background-color: #00acc1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add some shadow */
+  }
+
+  .chat-window {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1000;
+    /* Add more styles for your chat window here */
+  }
+  
+  .close-chat {
+    position: absolute;
+    top: 5px; /* Position it at the top of the chat window */
+    right: 5px; /* Position it at the right side of the chat window */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Adjust the size as needed */
+    z-index: 10; /* Make sure it's above other elements */
+    background-color: red;
+  }
+
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+    padding-top: 40px;
+    bottom: 60px;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    max-width: 80%;
+  }
+  
+  .message.user {
+    background-color: #5cc0ce;
+    align-self: flex-end; /* Align to the right */
+    /* Add the speech bubble effect as before */
+  }
+  
+  /* Styles for applicant messages */
+  .message.applicant {
+    background-color: #f4f4f4;
+    align-self: flex-start; /* Align to the left */
+    /* Add the speech bubble effect as before */
+  }
+  
+  .message-content {
+    border-radius: 7.5px;
+    padding: 5px 10px;
+  }
+
+  .message-form {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f4f4f4;
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add space between the input and the button */
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cc0ce;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
