@@ -13,7 +13,7 @@ export const Menu_teacher = () => {
           </div>
           <div className='MT_ramos'>
             <h3>Ramos Dictados</h3>
-            <Link to="/">
+            <Link to="/INF152">
               <button>INF152-2023/02</button>
             </Link>
             <Link to="/INF134">
