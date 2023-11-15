@@ -26,9 +26,6 @@ tbody tr:nth-child(even) {
 
 .input-container {
     margin-bottom: 10px;
-  }
-  
-  input {
     width: 200px;
     margin-right: 1000px; 
   }

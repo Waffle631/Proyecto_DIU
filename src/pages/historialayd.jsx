@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import SimpleTable from "../components/SimpleTable"
 import NavBar from '../components/nav_bar'
-import '../table.css'
+import '../stylesheets/table.css'
 
 export const HistorialPage = () => {
     return (
