@@ -1,0 +1,39 @@
+
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 87vw;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url('../assets/fondoUSM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #5e5353;
+    text-align: center;
+  }
+  .login-container .button {
+    background-color: rgb(189, 128, 15);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .login-container .button button:hover {
+    background-color: #ff8c00;
+  }
+  

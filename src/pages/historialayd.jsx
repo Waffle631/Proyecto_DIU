@@ -12,11 +12,7 @@ export const HistorialPage = () => {
             <NavBar />
             <div className='contenedorHistorial'>
                 <h1>Historial de Ayudantes de Juan Carlos</h1> 
-                <div className="contenedorFlex">
-                    <Menu_teacher />
                     <SimpleTable/>  
-                    
-                </div>
             </div>
         </div>
     );

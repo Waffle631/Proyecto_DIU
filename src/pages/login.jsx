@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LogoUSM from '../assets/USMDI.png'
 import { Link } from 'react-router-dom'; 
+import '../stylesheets/table.css'
 
 
 
