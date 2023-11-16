@@ -9,6 +9,7 @@ import { ProfilePage } from '../pages/profile'
 import * as profileData from './profile_data'
 import INF134P from '../pages/INF134P'
 import INF152P from '../pages/INF152P'
+import HistorialPage from '../pages/historialayd'
 
 const AppRouter = () => {
   return (
@@ -28,6 +29,7 @@ const AppRouter = () => {
         <Route path='/profile-Guillermo' element={<ProfilePage {...profileData.guillermoData} />} />
         <Route path='/INF134' element={<INF134P/>} />
         <Route path='/INF152' element={<INF152P/>} />
+        <Route path='/History' element={<HistorialPage/>} />
       </Routes>
     </BrowserRouter>
   )

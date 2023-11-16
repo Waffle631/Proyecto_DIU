@@ -1,0 +1,130 @@
+[
+    {
+        "id": 201973730,
+        "dv": 2,
+        "first_name": "Martyn",
+        "last_name": "Twinning",
+        "ramo": "INF-134",
+        "semestre": "2021-2"
+    },
+    {
+        "id": 201973733,
+        "dv": 3,
+        "first_name": "Clementine",
+        "last_name": "Cawkwell",
+        "ramo": "INF-134",
+        "semestre": "2021-2"
+    },
+    { 
+        "id": 201973733,
+        "dv": 9,
+        "first_name": "Georgeanna",
+        "last_name": "Foskew",
+        "ramo": "INF-152",
+        "semestre": "2021-2"
+    },
+    {   
+        "id": 201973736,
+        "dv": 6,
+        "first_name": "Victor",
+        "last_name": "Kleyn",
+        "ramo": "INF-134",
+        "semestre": "2022-1"
+    },
+    {
+        "id": 201973553,
+        "dv": 2,
+        "first_name": "Sephira",
+        "last_name": "Booler",
+        "ramo": "INF-134",
+        "semestre": "2022-1"
+    },
+    {
+        "id": 201973533,
+        "dv": 9,
+        "first_name": "Dmitri",
+        "last_name": "Yanukhin",
+        "ramo": "INF-134",
+        "semestre": "2022-1"
+    },
+    {
+        "id": 201973863,
+        "dv": 2,
+        "first_name": "Xena",
+        "last_name": "Bew",
+        "ramo": "INF-152",
+        "semestre": "2022-1"
+    },
+    {
+        "id": 201973423,
+        "dv": 5,
+        "first_name": "Terra",
+        "last_name": "Lye",
+        "ramo": "INF-152",
+        "semestre": "2022-1"
+    },
+    {
+        "id": 201973903,
+        "dv": 3,
+        "first_name": "Ranna",
+        "last_name": "Seppey",
+        "ramo": "INF-134",
+        "semestre": "2022-2"
+    },
+    {
+        "id": 202073455,
+        "dv": 2,
+        "first_name": "Marleah",
+        "last_name": "MacCague",
+        "ramo": "INF-134",
+        "semestre": "2022-2"
+    },
+    {
+        "id": 202073455,
+        "dv": 3,
+        "first_name": "Alfreda",
+        "last_name": "Keepe",
+        "ramo": "INF-152",
+        "semestre": "2022-2"
+    },
+    {
+        "id": 202073455,
+        "dv": 7,
+        "first_name": "Odell",
+        "last_name": "Jeannard",
+        "ramo": "INF-134",
+        "semestre": "2023-1"
+    },
+    {
+        "id": 202073455,
+        "dv": 7,
+        "first_name": "Willi",
+        "last_name": "Langsdon",
+        "ramo": "INF-134",
+        "semestre": "2023-1"
+    },
+    {
+        "id": 202073455,
+        "dv": 2,
+        "first_name": "Thomasine",
+        "last_name": "McEntee",
+        "ramo": "INF-134",
+        "semestre": "2023-1"
+    },
+    {
+        "id": 202073455,
+        "dv": 4,
+        "first_name": "Claudette",
+        "last_name": "Neale",
+        "ramo": "INF-152",
+        "semestre": "2023-1"
+    },
+    {
+        "id": 202073455,
+        "dv": "1",
+        "first_name": "Clarita",
+        "last_name": "Mollene",
+        "ramo": "INF-152",
+        "semestre": "2023-1"
+    }
+]
