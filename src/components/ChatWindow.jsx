@@ -1,5 +1,5 @@
 import React from 'react';
-//import './ChatWindow.css'; // Assuming you have a CSS file for styles
+import '../styles/ChatWindow.css';
 
 const ChatWindow = ({ isVisible, onClose, messages }) => {
     if (!isVisible) return null;

@@ -12,7 +12,7 @@ const Chat = () => {
     // Mock messages
     const messages = [
       { sender: 'user', content: 'Hola, sigues disponible para la ayudantía?' },
-      { sender: 'applicant', content: 'Sí, aún sigo disponioble' },
+      { sender: 'applicant', content: 'Sí, aún sigo disponible' },
       { sender: 'user', content: 'Perfecto, quedas seleccionada' },
       { sender: 'applicant', content: 'Gracias!' },
     ];

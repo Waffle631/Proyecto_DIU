@@ -1,5 +1,5 @@
 import React from 'react';
-//import './ChatButton.css'; // Assuming you have a CSS file for styles
+import '../styles/ChatButton.css';
 
 const ChatButton = ({ onChatClick }) => {
   return (

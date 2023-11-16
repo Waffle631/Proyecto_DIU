@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from '../components/nav_bar';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Chat from '../components/Chat.jsx';
+import '../styles/profile.css';
+
 
 export const ProfilePage = ({name, picture, average, experience, motivation, applyingCourses, currentCourses}) => {
     return (
