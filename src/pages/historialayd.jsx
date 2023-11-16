@@ -9,7 +9,7 @@ export const HistorialPage = () => {
     return (
         <div>
             <NavBar />
-            <div>
+            <div className='contenedorHistorial'>
                 <h1>Historial de Ayudantes</h1> 
                 <SimpleTable/>  
             </div>

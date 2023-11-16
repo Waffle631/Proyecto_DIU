@@ -29,3 +29,7 @@ tbody tr:nth-child(even) {
     width: 200px;
     margin-right: 1000px; 
   }
+
+.contenedorHistorial{
+    margin-top: 5%;
+}

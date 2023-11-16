@@ -14,7 +14,7 @@ export const HomePage = () => {
       <div className='content'>
         <div className='dates'>
           <div className='date-tittle'>
-            <h2>Proximas fechas</h2>
+            <h2>Próximas fechas</h2>
           </div>
           <div className='date'>
             Estimados:
@@ -25,7 +25,7 @@ export const HomePage = () => {
                   <th scope="col"></th>
                   <th scope="col" style={{paddingLeft: "20px"}} >Inicio</th>
                   <th scope="col" style={{paddingLeft: "20px"}} ></th>
-                  <th scope="col" style={{paddingLeft: "10px"}} >Termino</th>
+                  <th scope="col" style={{paddingLeft: "10px"}} >Término</th>
                 </tr>
               </thead>
               <tbody>
