@@ -4,6 +4,7 @@ import NavBar from '../components/nav_bar'
 // import INF152 from '../components/INF152'
 import INF134 from '../components/INF134'
 import Menu_teacher from '../components/menu_teacher'
+import '../stylesheets/table.css'
 
 export const INF134P = () => {
   return (
