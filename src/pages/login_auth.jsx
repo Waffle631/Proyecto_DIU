@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
 import LogoUSM from '../assets/USMDI.png'
-
+import '../stylesheets/login.css'
 
 
 

@@ -3,14 +3,13 @@
 table {
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc; 
 }
 
 thead, tfoot {
     color: white;
-    background: #ab47bc;
-    border: 1px solid #ddd; 
+    background: #b446c7; 
     border-radius: 10px 10px 0 0; 
 }
 
@@ -20,16 +19,30 @@ th, td {
 }
 
 tbody tr:nth-child(even) {
-    background: #3d3c3c;
+    background: #e9e6e6;
     border-radius: 10px 10px 0 0;
 }
 
 .input-container {
     margin-bottom: 10px;
     width: 200px;
-    margin-right: 1000px; 
+    margin-right: 1000px;
   }
 
 .contenedorHistorial{
-    margin-top: 5%;
+    margin-top: 7.5%;
 }
+
+.contenedorHistorial h1 {
+    font-size: 3em; 
+    font-family: 'Arial', sans-serif;
+    color: #AB47BC; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+.contenedorFlex {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+  }
