@@ -47,8 +47,8 @@ html, body {
   justify-content: space-between;
   position: relative;
   align-items: center;
-  top: 10%;
-  left: -25%;
+  top: 5%;
+  left: -5%;
   /* transform: translateX(-50%); */
 }
 
@@ -212,9 +212,9 @@ html, body {
   width: 300px;
   position: relative;
   /* Cambia la posición a absoluta */
-  top: -425px;
+  top: -400px;
   /* Lo coloca en la mitad vertical de la pantalla */
-  left: -5%;
+  left: 5%;
   background-color: transparent;
   margin: 50px;
 }
@@ -325,6 +325,9 @@ html, body {
   background-color: #8e24aa;
   width: fit-content;
   height: fit-content;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 2px solid #413c3c;
 }
 
 .date-tittle{
@@ -340,6 +343,7 @@ html, body {
   justify-content: space-evenly;
   background-color:#d8d1d1;
   color: black;
+  border: 2px solid #acacac;
 }
 
 
@@ -355,12 +359,15 @@ html, body {
   /* background-color:#d8d1d1; */
   /* color: black; */
   text-align: left;
+  color: white;
 }
 
 .date-p{
   width: 415px;
   /* height: 75px; */
   margin-bottom: 30px;
+  font-weight: bold;
+  color: white;
 }
 
 .signatures {
@@ -376,6 +383,7 @@ html, body {
   background-color: #8e24aa;
   width: fit-content;
   height: fit-content;
+  border: 2px solid #413c3c;
 }
 
 .sig-tittle{
@@ -391,6 +399,7 @@ html, body {
   justify-content: space-evenly;
   background-color:#d8d1d1;
   color: black;
+  border: 2px solid #acacac;
 }
 
 .signature{

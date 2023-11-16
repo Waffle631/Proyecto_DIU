@@ -19,8 +19,8 @@ export const HomePage = () => {
           <div className='date'>
             Estimados:
             <p className='date-p'>Se les informa que las fechas para el periodo 2024-1 son:</p>
-            <table className="table table-bordered">
-              <thead>
+            <table className="table table-bordered" style={{border: "2px solid #413c3c"}}>
+              <thead style={{border: "2px solid #413c3c"}}>
                 <tr>
                   <th scope="col"></th>
                   <th scope="col" style={{paddingLeft: "20px"}} >Inicio</th>
@@ -28,7 +28,7 @@ export const HomePage = () => {
                   <th scope="col" style={{paddingLeft: "10px"}} >Término</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody style={{border: "2px solid #413c3c"}}>
                 <tr>
                   <th scope="row">Postulaciones</th>
                   <td style={{paddingLeft: "20px"}}>25/01</td>
