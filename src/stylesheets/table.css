@@ -3,14 +3,14 @@
 table {
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #0a0a0a;
     border-radius: 10px;
 }
 
 thead, tfoot {
     color: white;
     background: #ab47bc;
-    border: 1px solid #ddd; 
+    border: 1px solid #0a0a0a; 
     border-radius: 10px 10px 0 0; 
 }
 
@@ -20,14 +20,14 @@ th, td {
 }
 
 tbody tr:nth-child(even) {
-    background: #3d3c3c;
+    background: #e9e6e6;
     border-radius: 10px 10px 0 0;
 }
 
 .input-container {
     margin-bottom: 10px;
     width: 200px;
-    margin-right: 1000px; 
+    margin-right: 1000px;
   }
 
 .contenedorHistorial{
