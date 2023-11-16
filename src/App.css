@@ -445,6 +445,10 @@ html, body {
   text-align: left;
 }
 
+.courses ol, .current-courses ol {
+    text-align: left;
+  }
+
 .profile-actions {
   display: flex;
   justify-content: space-between;

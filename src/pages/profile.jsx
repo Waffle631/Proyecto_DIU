@@ -38,9 +38,9 @@ export const ProfilePage = ({name, picture, average, experience, motivation, app
                     <div className='row'>
                         <div className='col courses'>
                             <label>Asignaturas a las que está postulando este período</label>
-                            <ul>
+                            <ol>
                                 {applyingCourses.map((course, index) => <li key={index}>{course}</li>)}
-                            </ul>
+                            </ol>
                         </div>
                     </div>
 

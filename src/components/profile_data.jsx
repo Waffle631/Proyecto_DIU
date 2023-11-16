@@ -13,7 +13,7 @@ export const anaMariaData = {
     experience: 2,
     picture: ProfilePicAna,
     motivation: "Debería ser ayudante de este ramo porque tengo un sólido dominio del tema y la capacidad para facilitar el aprendizaje de mis compañeros",
-    applyingCourses: ["Estructuras discretas"],
+    applyingCourses: ["Estucturas de Datos","Estructuras discretas"],
     currentCourses: ["Herramientas generales", "Herramientas para Ayudantes De Aula"]
 };
 
